@@ -1,0 +1,122 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+
+.menu-celular { display: none; }
+
+.mapa-pc { display: none; }
+.mapa-celular { display: block; }
+.Gatilhos-pc { display: none; }
+
+.edicao-logos-pc { display: block; }
+.edicao-logos-celular { display: none; }
+.videoface-pc { display: none; }
+.videoface-celular { display: none; }
+
+.enejunesp-fundo-pc { display: none; }
+.conteudo-fundo-pc { display: none; }
+.edicao-fundo-pc { display: none; }
+.inscricoes-fundo-pc { display: none; }
+.investidores-fundo-pc { display: none; }
+
+/* Barra de Navegação */
+#nav li {
+        position: relative;
+        width: 14.6%;
+        padding: 0.5em 1%;
+    }
+    #nav > ul > li:first-child {
+        width: 16%;
+        padding: 0.5em 0;
+        margin-left: 0%;
+    }
+        #nav ul li a {
+            padding: 0.5em 0.3em;
+        }
+        #nav li ul li {
+            width: 87.6%;
+            margin: 0em 6%;
+        }
+        .risco-2 {
+            width: 87.6%;
+            margin: 0em 6%;
+        }
+
+/* ENEJUNESP */
+article {
+    margin: 0 12%;
+    font-size: 125%;
+}
+
+.article-bloco {
+    float: none;
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+}
+
+.enejunesp-fundo {
+    background-image: url("../img/enejunesp-fundo-opaco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Edição 2016 */
+.edicao-img-1 img {
+    height: 10em;
+}
+
+.videoface-container {
+    height: 16em;
+    width: 28em;
+}
+
+.edicao-logos-pc img {
+    height: auto;
+}
+
+.edicao-sistema {
+    margin-top: 1em;
+}
+
+.edicao-fundo {
+    background-image: url("../img/edicao-fundo-opaco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Conteúdo */
+.conteudo-fundo {
+    background-image: url("../img/conteudo-fundo-opaco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.conteudo-descricao {
+    padding: 9px;
+}
+
+.descricaoPal {
+    padding: 10px;
+}
+
+/* Inscrições */
+.inscricoes-fundo {
+    background-image: url("../img/inscricoes-fundo-opaco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Investidores */
+.investidores-fundo {
+    background-image: url("../img/investidores-fundo-opaco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Contato */
+
+} /* FIM - Media Screen */

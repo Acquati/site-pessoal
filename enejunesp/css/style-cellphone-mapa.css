@@ -1,0 +1,20 @@
+/* Mejland */
+@media screen and (max-device-width: 767px){
+
+.mapa {
+    width: 100%;
+    position:relative;
+}
+
+.mapa-top {
+    height: 0em;
+}
+
+.mapa-celular {
+    height: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+} /* FIM @media screen */

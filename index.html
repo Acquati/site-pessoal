@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Leandro Acquati</title>
+	<meta http-equiv="Content-Language" content="pt-br"/>
+	<meta name="author" content="Leandro Acquati" />
+	<meta name="description" content="Site pessoal do Desenvolvedor Web Leandro Acquati." />
+	<meta name="keywords"  content="desenvolvedor, site, web, html5, css3, javascript, jquery, fullpagescroll, photoshop" />
+	<meta name="Resource-type" content="Document" />
+	<meta name="robots" content="all"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+	<!-- CSS --> 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style-pc.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style-tablet.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style-cellphone.css"/>
+
+	<!-- FONTES -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet"> 
+
+	<!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="js/underscore-1.1.4.min.js"></script>
+	<script type="text/javascript" src="js/processing.min.js"></script>
+	<script type="text/javascript" src="js/coffee-script.js"></script>
+	<script type="text/coffeescript" src="js/coffee_draw.coffee"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<ul class="topnav" id="menu">
+	<li><a data-menuanchor="home" href="#home">Home</a></li>
+	<li><a data-menuanchor="contato" href="#contato">Contato</a></li>
+	<li><a data-menuanchor="sobre" href="#sobre">Sobre</a></li>
+	<li><a data-menuanchor="enejunesp" href="#enejunesp">Portfólio</a></li>
+	<li class="icon">
+		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+	</li>
+</ul>
+
+<div id="main">
+	<canvas id="processing"></canvas>
+</div>
+
+<div id="fullpage">
+	<!-- HOME -->
+	<div class="section active" id="section0">
+		<div class="box-home pc">
+			<h1>Oi! Eu sou o Leandro Acquati</h1>
+			<h2>Estudo Sistemas de Informação na Unesp de Bauru.<br>
+			Sou Desenvolvedor Web e também<br>
+			Diretor de Qualidade na Jr.com.</h2>
+		</div>
+		<div class="box-home celular">
+			<h1>Oi! Eu sou o<br>Leandro Acquati</h1>
+			<h2>Estudo Sistemas de Informação na Unesp de Bauru. Sou Desenvolvedor Web e também	Diretor de Qualidade na Jr.com.</h2>
+		</div>
+		<a class="dryly pc" href="http://dry.ly/2011/02/21/coffeescript--processingjs--crazy-delicious" target="_blank">Background inpirado em <span>Dry.ly</span></a>
+
+		<a href="#enejunesp/0">
+			<div class="control-arrow-info-down">Portfólio</div>
+		    <div class="control-arrow-down control-arrow-down-white"></div>
+		    <div class="control-arrow-down control-arrow-down-black"></div>
+	    </a>
+	</div>
+
+	<!-- ENEJUNESP -->
+	<div class="section" id="section1">
+	    <div class="slide conteudo">
+	    	<h1>Enejunesp Edição 2016</h1>
+
+	    	<a href="http://ceja.000webhostapp.com/enejunesp/" target="_blank">
+	    		<div class="conteudo-img conteudo-left img-1"></div>
+	    		<div class="conteudo-img conteudo-right img-2"></div>
+		    </a>
+
+		    <a class="pc" href="#enejunesp/1">
+			    <div class="control-arrow control-arrow-next"></div>
+			    <div class="control-arrow control-arrow-next-black"></div>
+			    <div class="control-arrow-info control-arrow-info-right">Info</div>
+		    </a>
+		    <a class="celular" href="#enejunesp/1">
+			    <div class="control-arrow-celular control-arrow-next-celular"></div>
+			    <div class="control-arrow-celular control-arrow-next-black-celular"></div>
+			    <div class="control-arrow-info-celular">Informações</div>
+		    </a>		    
+		    <a class="pc" href="#interage/0">
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>
+	    </div>
+
+	    <div class="slide sobre">
+	    	<h1>Enejunesp Edição 2016</h1>
+			<div class="box-sobre">
+    			<h2>O Encontro de Empresas Juniores da Unesp (Enejunesp) é um dos principais eventos do Movimento Empresa Júnior no estado de São Paulo. O evento é realizado anualmente e reúne, em média, 500 congressistas de 55 empresas juniores. Na edição 2016, o evento foi realizado na cidade de Bauru. O MEJ bauruense, que é constituído por 9 empresas, organizou o evento neste ano.</h2>
+    			<h3>Participei da comissão de TI do evento, como membro da Jr.com, a empresa Júnior de Computação da UNESP de Bauru. No site da edição 2016, realizei a construção do código com a equipe, a partir do design que nos foi enviado, utilizando as linguagens HTML5, CSS3 e JavaScript; a biblioteca jQuery; as ferramentas Adobe Photoshop e FileZilla.</h3>
+			</div>
+
+			<a class="pc" href="#enejunesp/0">
+			    <div class="control-arrow control-arrow-prev"></div>
+			    <div class="control-arrow control-arrow-prev-black"></div>
+			    <div class="control-arrow-info control-arrow-info-left">Voltar</div>
+		    </a>
+		    <a class="pc" href="#interage/0">
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>			    
+		    <a class="celular" href="#interage/0">
+		    	<div class="control-arrow-info-down info-sobre">Portfólio</div>
+			    <div class="control-arrow-down control-arrow-down-white-sobre"></div>
+			    <div class="control-arrow-down control-arrow-down-black-sobre"></div>
+		    </a>
+	    </div>
+	</div>
+
+	<!-- INTERAGE -->
+	<div class="section" id="section2">
+		<div class="slide conteudo">
+			<h1>Interage Jr.</h1>
+
+    		<a href="http://interagejr.com/" target="_blank">
+	    		<div class="conteudo-img conteudo-left img-3"></div>
+	    		<div class="conteudo-img conteudo-right img-4"></div>
+	    	</a>
+
+	    	<a class="pc" href="#interage/1">
+			    <div class="control-arrow control-arrow-next"></div>
+			    <div class="control-arrow control-arrow-next-black"></div>
+			    <div class="control-arrow-info control-arrow-info-right">Info</div>
+		    </a>
+		    <a class="celular" href="#interage/1">
+			    <div class="control-arrow-celular control-arrow-next-celular"></div>
+			    <div class="control-arrow-celular control-arrow-next-black-celular"></div>
+			    <div class="control-arrow-info-celular">Informações</div>
+		    </a>		    
+		    <a class="pc" href="#primeirodemaio/0">
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>
+		</div>
+
+		<div class="slide sobre">
+	    	<h1>Interage Jr.</h1>
+			<div class="box-sobre">
+    			<h2>Em 2016 a Interage Jr., empresa júnior de Psicologia da UNESP de Bauru, contratou a Jr.com para a criação de seu site institucional.</h2>
+    			<h3>Como membro da Jr.com, realizei a construção do código com a equipe, a partir da identidade visual da Interage Jr., utilando as linguagens HTML5, CSS3, JavaScript; a biblioteca jQuery; as ferramentas  Google Maps, Adobe Photoshop e FileZilla.</h3>
+			</div>
+
+			<a class="pc" href="#interage/0">
+			    <div class="control-arrow control-arrow-prev"></div>
+			    <div class="control-arrow control-arrow-prev-black"></div>
+			    <div class="control-arrow-info control-arrow-info-left">Voltar</div>
+		    </a>
+		    <a class="pc" href="#primeirodemaio/0">
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>			    
+		    <a class="celular" href="#primeirodemaio/0">
+		    	<div class="control-arrow-info-down info-sobre">Portfólio</div>
+			    <div class="control-arrow-down control-arrow-down-white-sobre"></div>
+			    <div class="control-arrow-down control-arrow-down-black-sobre"></div>
+		    </a>
+	    </div>
+	</div>
+
+	<!-- PRIMEIRO DE MAIO -->
+	<div class="section" id="section3">
+		<div class="slide sobre">
+			<h1>Cursinho Primeiro de Maio</h1>
+
+    		<a href="http://www.primeirodemaiocursinho.com.br/" target="_blank">
+    			<div class="conteudo-img conteudo-left img-5"></div>
+    			<div class="conteudo-img conteudo-right img-6"></div>
+	    	</a>
+
+	    	<a class="pc" href="#primeirodemaio/1">
+			    <div class="control-arrow control-arrow-next"></div>
+			    <div class="control-arrow control-arrow-next-black"></div>
+			    <div class="control-arrow-info control-arrow-info-right">Info</div>
+		    </a>
+		    <a class="celular" href="#primeirodemaio/1">
+			    <div class="control-arrow-celular control-arrow-next-celular"></div>
+			    <div class="control-arrow-celular control-arrow-next-black-celular"></div>
+			    <div class="control-arrow-info-celular">Informações</div>
+		    </a>		    
+		    <a class="pc" href="#sobre/0">
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>
+		</div>
+
+		<div class="slide sobre">
+	    	<h1>Cursinho Primeiro de Maio</h1>
+			<div class="box-sobre">
+    			<h2>O Curso Pré-Universitário Gratuito Primeiro de Maio é um projeto de extensão universitária vinculado à Universidade Estadual Paulista “Júlio de Mesquita Filho” UNESP Campus de Bauru. Em 2017 fui contratado para criar o site institucional do cursinho.</h2>
+
+    			<h3>Realizei a construção do código, a partir da identidade visual, utilizando as linguagens HTML5, CSS3 e JavaScript; a biblioteca jQuery; as ferramentas Google Maps,  Adobe Photoshop e FileZilla; o template se encontra em <a href="http://alvarotrigo.com/fullPage/" target="_blank" style="color: #3C8FBE;">Full Page Scroll</a>.</h3>
+			</div>
+
+			<a class="pc" href="#primeirodemaio/0">
+			    <div class="control-arrow control-arrow-prev"></div>
+			    <div class="control-arrow control-arrow-prev-black"></div>
+			    <div class="control-arrow-info control-arrow-info-left">Voltar</div>
+		    </a>
+		    <a class="pc" href="#sobre/0">
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>			    
+		    <a class="celular" href="#sobre/0">
+		    	<div class="control-arrow-info-down info-sobre">Portfólio</div>
+			    <div class="control-arrow-down control-arrow-down-white-sobre"></div>
+			    <div class="control-arrow-down control-arrow-down-black-sobre"></div>
+		    </a>
+	    </div>
+	</div>
+
+	<!-- SOBRE -->
+	<div class="section" id="section4">
+		<div class="slide sobre">
+			<h1>Sobre</h1>
+			<div class="box-sobre">
+    			<h2>Sou um Desenvolvedor Web especializado em Front-End, busco integrar design e arte em meus projetos, me envolvendo desde o domínio e hospedagem do site, até a busca por torná-lo responsivo e compatível com todos os dispositivos.</h2>
+    			<h3>Em 2012 iniciei meus estudos na área de Tecnologia da Informação, quando cursei Ciência da Computação de 2012 até 2015, na UNESP de Bauru. Em 2016 vi que meu negócio era a área empresarial, troquei de curso e ingressei em Sistemas de Informação, no qual estou até hoje. Neste mesmo ano, entrei na empresa júnior de computação da UNESP de Bauru, a <a href="http://compjr.com.br/" target="_blank" style="color: #3C8FBE;">Jr.com</a>, na qual exerço atualmente o cargo de Diretor de Qualidade. Trabalho como Freelancer na área de Desenvolvimento Web e tenho alguns hobbies como dobradura, pintura, jardinagem, jogos de estratégia e criação de memes. <a href="https://textfac.es/" target="_blank" style="text-decoration: none; color: #3C8FBE;">( ͡° ͜ʖ ͡°)</a></h3>
+			</div>
+
+			<a class="pc" href="#contato/0">
+		    	<div class="control-arrow-info-down info-sobre-2">Contato</div>
+			    <div class="control-arrow-down control-arrow-down-white"></div>
+			    <div class="control-arrow-down control-arrow-down-black"></div>
+		    </a>
+		    <a class="celular" href="#contato/0">
+		    	<div class="control-arrow-info-down info-sobre-2">Contato</div>
+			    <div class="control-arrow-down control-arrow-down-white-sobre"></div>
+			    <div class="control-arrow-down control-arrow-down-black-sobre"></div>
+		    </a>
+		</div>
+	</div>
+
+	<!-- CONTATO -->
+	<div class="section" id="section5">
+		<div class="contato">
+			<h1>Contato</h1>
+			<h2><img src="img/mail-icon.png">leandroacquati@gmail.com</h2>
+			<a href="https://www.facebook.com/leandro.acquati" target="_blank">
+				<h2 style="text-decoration: underline;"><img src="img/facebook-icon.png">/leandro.acquati</h2>
+			</a>
+			<a href="https://github.com/Acquati" target="_blank">
+				<h2 style="text-decoration: underline;"><img src="img/github-icon.png">/Acquati</h2>
+			</a>
+		</div>
+
+		<a class="dryly" href="http://alvarotrigo.com/fullPage/" target="_blank">Template <span>Full Page Scroll</span></a>
+	</div>
+</div>
+
+</body>
+</html>

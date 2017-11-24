@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+<meta charset='utf-8'>
+<title>ENEJUNESP 2016</title>
+<!-- Os dois meta tags abaixo servem para o sistema de busca do Google adicionar o site em seu database.-->
+<meta name='description' content='O Encontro de Empresas Juniores da Unesp (Enejunesp) é um dos principais eventos do Movimento Empresa Júnior no estado de São Paulo. Tem como objetivo reunir jovens de diferentes áreas do conhecimento, disseminando o empreendedorismo e buscando capacitação e motivação para suas carreiras.'>
+<meta name='robots' content='all'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel='stylesheet' href='css/normalize.css'>
+<link rel='stylesheet' href='css/style-pc.css'>
+<link rel='stylesheet' href='css/style-pc-mapa.css'>
+<link rel='stylesheet' href='css/style-tablet.css'>
+<link rel='stylesheet' href='css/style-tablet-mapa.css'>
+<link rel='stylesheet' href='css/style-cellphone.css'>
+<link rel='stylesheet' href='css/style-cellphone-mapa.css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="logo"> 
+
+<!-- Miniatura do Facebook -->
+<div id="fb-root"></div>
+		
+<!-- Barra de Navegação -->
+<nav id="nav" role="navigation">
+	<div class="menu-celular" id="showNav" onclick="showNav()"></div>
+	<div class="menu-celular" id="hideNav" onclick="hideNav()"></div>
+	<ul class="clearfix" id="Menuitems">
+		<li><a href="#logo" class="scroll">XXII ENEJUNESP</a></li>
+		<div class="risco-1 first" ="risco"></div>
+		<li class="menu-celular"><a onclick="hideNav()" href="#enejunesp" class="scroll verde">ENEJUNESP</a></li>
+		<li class="menu-pc"><a href="#enejunesp" class="scroll verde">ENEJUNESP</a></li>
+		<div class="risco-1"></div>
+		<li>
+			<a href="#" aria-haspopup="true" class="roxo"><span>EDIÇÃO 2016</span></a>
+			<ul>
+				<div class="risco-2 first"></div>
+				<li class="menu-celular"><a onclick="hideNav()" href="#mejland" class="scroll roxo">Mejland</a></li>
+				<li class="menu-pc"><a href="#mejland" class="scroll roxo">Mejland</a></li>
+				<div class="risco-2"></div>
+				<li class="menu-celular"><a onclick="hideNav()" href="#bauru" class="scroll roxo">Bauru</a></li>
+				<li class="menu-pc"><a href="#bauru" class="scroll roxo">Bauru</a></li>
+				<div class="risco-2"></div>
+				<li class="menu-celular"><a onclick="hideNav()" href="#manual" class="scroll roxo">Manual</a></li>
+				<li class="menu-pc"><a href="#manual" class="scroll roxo">Manual</a></li>
+			</ul>
+		</li>
+		<div class="risco-1"></div>
+		<li>
+			<a href="#" aria-haspopup="true" class="vermelho"><span>CONTEÚDO</span></a>
+			<ul>
+				<div class="risco-2 first"></div>
+				<li class="menu-celular"><a onclick="hideNav()" href="#palestrantes" class="scroll vermelho">Palestrantes</a></li>
+				<li class="menu-pc"><a href="#palestrantes" class="scroll vermelho">Palestrantes</a></li>
+				<div class="risco-2"></div>
+				<li class="menu-celular"><a onclick="hideNav()" href="#workshop" class="scroll vermelho">Workshop</a></li>
+				<li class="menu-pc"><a href="#workshop" class="scroll vermelho">Workshop</a></li>
+			</ul>
+		</li>
+		<div class="risco-1"></div>
+		<li class="menu-celular"><a onclick="hideNav()" href="#inscricoes" class="scroll azul">INSCRIÇÕES</a></li>
+		<li class="menu-pc"><a href="#inscricoes" class="scroll azul">INSCRIÇÕES</a></li>
+		<div class="risco-1"></div>
+		<li class="menu-celular"><a onclick="hideNav()" href="#investidores" class="scroll cinza">INVESTIDORES</a></li>
+		<li class="menu-pc"><a href="#investidores" class="scroll cinza">INVESTIDORES</a></li>
+	</ul>
+</nav>
+<script src="js/doubletaptogo.js"></script>
+<script>
+	$( function(){
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
+
+<section>
+	<!-- Mejland -->
+	<div class="mapa">
+	<div class="mapa-top"></div>
+	<div class="mapa-down">
+		<div class="mapa-pc">
+			<img src="img/mapa-pc.png">
+
+			<div class="gatilho biblioteca"></div>
+			<div class="balao">
+				<img src="img/biblioteca.png">
+				<h3>Biblioteca</h3>
+				<h4>
+					Polo de criatividade e de conhecimento, aqui trabalham as mentes por trás do planejamento e
+					do processo de criação da Mejland. Neste lugar, nossos registros científicos e históricos são
+					guardados para que possamos construir um futuro melhor, superando os erros do passado.
+				</h4>
+			</div>
+
+			<div class="gatilho central-ti"></div>
+			<div class="balao">
+				<img src="img/central-ti.png">
+				<h3>Central de Tecnologia</h3>
+				<h4>
+					O mundo está cada vez mais conectado e, como a Mejland aposta na inovação, não poderia
+					ficar alheia à tecnologia. Neste lugar, as pessoas trabalham para garantir o constante upgrade
+					dos projetos locais, além de lutar pela democratização do acesso à internet.
+				</h4>		
+			</div>
+
+			<div class="gatilho jornal"></div>
+			<div class="balao"> 
+				<img src="img/jornal.png">
+				<h3>Jornal</h3>
+				<h4>
+					Aqui é o lugar onde os habitantes podem reclamar, elogiar e sugerir coisas para a gestão da
+					cidade. Além de informar, o veículo de comunicação da cidade tem a tarefa de ouvir a
+					população e enviar suas demandas às autoridades responsáveis.
+				</h4>		
+			</div>
+
+			<div class="gatilho prefeitura"></div>
+			<div class="balao"> 
+				<img src="img/prefeitura.png">
+				<h3>Prefeitura</h3>
+				<h4>
+					As autoridades trabalham neste local supervisionando tudo o que é feito na cidade e
+					auxiliando na resolução dos maiores problemas. Aqui, a união e o alinhamento da população
+					também são preocupações constantes, promovendo uma sinergia única!
+				</h4>	
+			</div>
+
+			<div class="gatilho banco"></div>
+			<div class="balao"> 
+				<img src="img/banco.png">
+				<h3>Banco</h3>
+				<h4>
+					Os cofres da nossa cidade são administrados por pessoas que se preocupam com o
+					crescimento econômico e sustentável. Os interesses das grandes corporações não podem se
+					sobressair ao respeito à natureza e aos nossos recursos naturais.
+				</h4>		
+			</div>
+
+			<div class="gatilho arquitetura"></div>
+			<div class="balao"> 
+				<img src="img/arquitetura.png">
+				<h3>Escritório de Arquitetura</h3>
+				<h4>
+					É fundamental para o nosso progresso que os espaços sejam bem planejados e otimizados. O
+					desenvolvimento urbano é pensado para garantir espaços de convivência e, dessa forma,
+					permitir que os habitantes estejam sempre em contato. Não há criatividade sem coletividade!
+				</h4>					
+			</div>
+		</div>
+		<img class="mapa-celular" src="img/logo-celular.png">
+	</div> <!-- FIM <div class="mapa-down"> -->
+	</div> <!-- FIM <div class="mapa"> -->
+
+	<!-- ENEJUNESP -->
+	<div class="clear"></div>
+	<div class="bloco-left verde2"  id="enejunesp"></div><h1 class="h1-left">ENEJUNESP</h1>
+	<div class="clear"></div>
+
+	<article>
+		<div class="article-bloco enejunesp-fundo">
+			<h2>O que é o Enejunesp?</h2>
+
+			<p>O Encontro de Empresas Juniores da Unesp (Enejunesp) é um dos principais eventos do Movimento Empresa Júnior no estado de São Paulo. Tem como objetivo reunir jovens de diferentes áreas do conhecimento, disseminando o empreendedorismo e buscando capacitação e motivação para suas carreiras.</p>
+
+			<p>O evento é realizado anualmente e reúne, em média, 500 congressistas de 55 empresas juniores. A cada edição, uma nova comissão organizadora assume a curadoria do Enejunesp, contando com a supervisão do Núcleo Unesp.</p>
+
+			<h2>O que é o Núcleo Unesp?</h2>
+
+			<p>Responsável por unir e desenvolver as ej’s ligadas a sua rede, o Núcleo de Empresas Juniores da UNESP (Núcleo Unesp) também participa da organização do Enejunesp. O evento é uma das ferramentas do Núcleo para manter o MEJ Unesp fortalecido e próspero.</p>
+
+			<p>Atualmente, a instituição conta com 32 empresas juniores filiadas, espalhadas por todo o estado de São Paulo. Para saber mais, acesse o site oficial do Núcleo Unesp.</p>
+		</div>
+
+		<img class="enejunesp-fundo-pc" src="img/enejunesp-fundo.png">
+	</article>
+	
+	<div class="clear"></div>
+	<div class="bloco-right verde2"></div>
+	<div class="clear"></div>
+
+	<!-- Edição 2016 -->
+	<div class="bloco-left roxo2"></div><h1 class="h1-left">EDIÇÃO 2016</h1>
+	<div class="clear"></div>
+
+	<article>
+		<div class="article-bloco edicao-fundo">
+			<div class="edicao-img-1" >
+				<img src="img/edicao-img-1.png">
+			</div>
+
+			<h2 id="mejland">Tema</h2>
+			<p>A <b>Mejland</b> é uma cidade colaborativa e sustentada por quatro pilares básicos: sinergia, criatividade, inovação e sustentabilidade. Os habitantes desse local são encorajados a buscar novas soluções para problemas recorrentes em suas vidas e, dessa forma, proporcionar uma transformação urbana e social. A <b>Mejland</b> é uma grande impulsora de ideias, capaz de instigar a criatividade e propagar o empreendedorismo em sua população.</p>
+
+
+			<h2 id="bauru">Bauru</h2>
+			<p>O campus de Bauru é o maior da Universidade Estadual Paulista, abrigando mais de 6000 estudantes. A UNESP Bauru é composta por três faculdades: FAAC (Faculdade de Arquitetura, Artes e Comunicação), FEB (Faculdade de Engenharia de Bauru) e FC (Faculdade de Ciências). O MEJ bauruense conta com 9 empresas juniores unespianas, sendo quatro delas filiadas ao Núcleo Unesp. São elas: Ativus, Design Jr, Interage, Jornal Jr, Jr.com, Locomotiva, Lótus Jr, Pro Jr e RpJr.</p>
+		</div>
+
+		<img class="edicao-fundo-pc" src="img/edicao-fundo.png">
+		<div class="clear"></div>
+
+		<div>
+			<div class="videoface-pc">
+				<iframe class="videoface" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEnejunesp%2Fvideos%2F1700490653550412%2F&width=500&show_text=false&height=281&appId" width="750" height="421" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowfullscreen=true></iframe>
+			</div>
+			<div class="videoface-tablet">
+				<iframe class="videoface" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEnejunesp%2Fvideos%2F1700490653550412%2F&width=500&show_text=false&height=281&appId" width="562" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowfullscreen=true></iframe>
+			</div>
+			<div class="videoface-celular">
+				<iframe class="videoface" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEnejunesp%2Fvideos%2F1700490653550412%2F&width=500&show_text=false&height=281&appId" width="262" height="147" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowfullscreen=true></iframe>
+			</div>
+			<table class="edicao-logos-pc">
+				<caption><h2>MEJ de Bauru</h2></caption>
+				<tr>
+					<td><a href="https://www.facebook.com/designjunior"><img src="img/DesignJr.jpg"></a></td>
+					<td><a href="https://www.facebook.com/interage.empresajunior"><img src="img/Interage.jpg"></a></td>
+					<td><a href="https://www.facebook.com/AtivusEmpresaJunior"><img src="img/Ativus.png"></a></td>
+					<td><a href="https://www.facebook.com/jornaljr/"><img src="img/jornal2.png"></a></td>
+					<td><a href="https://www.facebook.com/compjr/"><img src="img/Jr.com.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="https://www.facebook.com/lotusjr"><img src="img/LotusJr.png"></a></td>
+					<td><a href="https://www.facebook.com/locomotivajr/"><img src="img/Locomotiva.jpg"></a></td>
+					<td><a href="https://www.facebook.com/projuniorbauru/"><img src="img/Pro Jr.png"></a></td>
+					<td><a href="https://www.facebook.com/rpjrunespbauru"><img src="img/rpjr2.png"></a></td>
+					<td></td>
+				</tr>
+			</table>
+			<table class="edicao-logos-celular">
+				<caption><h2>MEJ de Bauru</h2></caption>
+				<tr>
+					<td><a href="https://www.facebook.com/designjunior"><img src="img/DesignJr.jpg"></a></td>
+					<td><a href="https://www.facebook.com/interage.empresajunior"><img src="img/Interage.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="https://www.facebook.com/AtivusEmpresaJunior"><img src="img/Ativus.png"></a></td>
+					<td><a href="https://www.facebook.com/jornaljr/"><img src="img/jornal2.png"></a></td>
+				</tr>
+				<tr>					
+					<td><a href="https://www.facebook.com/compjr/"><img src="img/Jr.com.png"></a></td>
+					<td><a href="https://www.facebook.com/lotusjr"><img src="img/LotusJr.png"></a></td>
+				</tr>
+				<tr>					
+					<td><a href="https://www.facebook.com/locomotivajr/"><img src="img/Locomotiva.jpg"></a></td>
+					<td><a href="https://www.facebook.com/projuniorbauru/"><img src="img/Pro Jr.png"></a></td>	
+				</tr>
+				<tr>
+					<td><a href="https://www.facebook.com/rpjrunespbauru"><img src="img/rpjr2.png"></a></td>
+					<td></td>
+				</tr>
+			</table>			
+		</div>
+
+		<div class="article-bloco edicao-manual">
+			<h2 id="manual">Manual do Congressista</h2>
+			<div class="edicao-sistema">
+				<a href="https://drive.google.com/file/d/0B9Duo4S54mkebXhTSmozc3V4aGM/view" target="_blank"><p>Visualize e baixe o <b>Manual do Congressista</b> clicando <b class="edicao-clique-aqui">aqui</b>.</p></a>
+			</div>
+		</div>
+		<div class="article-bloco edicao-manual">
+			<h2 id="manual">Aplicativo ENEJUNESP</h2>
+			<div class="edicao-sistema">
+				<a href="https://play.google.com/store/apps/details?id=app.enjunesp.v1" target="_blank"><p>Baixe o nosso <b>Aplicativo</b> clicando <b class="edicao-clique-aqui">aqui</b>.</p></a>
+			</div>
+		</div>
+	</article>
+
+	<div class="clear"></div>
+	<div class="bloco-right roxo2"></div>
+	<div class="clear"></div>
+
+	<!-- Conteúdo -->
+	<div class="bloco-left vermelho2"  id="conteudo"></div><h1 class="h1-left">CONTEÚDO</h1>
+	<div class="clear"></div>
+
+	<article>
+		<div class="conteudo-fundo" id="palestrantes">
+
+			<h2>Palestra de Abertura</h2>
+			<img class="conteudo-img-1" src="img/conteudo-ajlimao.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>AJ Limão Ervilha </b></p>
+					<p>Será um dos palestrantes, com Certificação Internacional em DHE® Design Human Engeneering com Dr. Richard Bandler. Programação Neurolingüística (PNL) com seu criador Dr. John Grinder. Formação em Análise Transacional e Certificação em Coach pela ICC - International Coach Community.</p>
+					<p>Consultor de empresas como Ford América Latina, Mercedes Benz, VOLVO, Banco do Brasil, Bradesco, Ambev, Kibon, dentre outras.</p>
+					<p><b>Sexta - 19h30</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Palestra</h2>
+			<img class="conteudo-img-1" src="img/conteudo-victorvieira.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Victor Vieira</b></p>
+					<p>"Como transformar o mundo através das vendas"
+					Por que ninguém quer ser vendedor? Conhecimentos, atitudes e habilidades necessárias para um vendedor de alta performance. A importância das vendas para as empresas e as vendas como ferramenta transformadora da sociedade.</p>
+					<p>Victor Vieira é Diretor e fundador do IEV - Instituto de Especialização em Vendas. Já foi balconista, vendedor porta à porta, representante comercial, vendedor B2B, supervisor de grandes contas, gerente e diretor comercial.</p>
+					<p><b>Sexta - 20h30 às 21h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Painel de Discussão</h2>
+			<img class="conteudo-img-1 conteudo-descricao-dupla" src="img/conteudo-adrienne.png">
+			<div class="conteudo-descricao conteudo-descricao-dupla">
+				<div class="descricaoPal">
+					<h2>Empreendedorismo Feminino</h2>
+					<p>Qual é o papel da mulher no mercado de trabalho e no empreendedorismo brasileiro? Nossas duas convidadas irão ajudar a discutir esse panorama.</p>
+					<p><b>Adrienne Reyes</b></p>
+					<p>Adrienne faz parte do Bela, Empreendedora e do Bar, projeto que visa desconstruir padrões relacionados ao empreendedorismo. O evento surgiu para conectar e fortalecer mulheres empreendedoras - e outras tantas que querem empreender e assumir o controle de suas vidas -, e que preferem falar de negócio com um drink na mão.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<img class="conteudo-img-1" src="img/conteudo-dani.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Dani Botaro</b></p>
+					<p>É da Impulso beta, empresa de soluções de educação em prol do avanço profissional feminino e da igualdade de gênero no mercado de trabalho. Suas soluções visam apoiar empresas em estratégias de promoção de igualdade de gênero que impulsionem os negócios.</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Painel de Discussão</h2>
+			<img class="conteudo-img-1 conteudo-descricao-dupla" src="img/conteudo-andremarin.png">
+			<div class="conteudo-descricao conteudo-descricao-dupla">
+				<div class="descricaoPal">
+					<h2>Economia Colaborativa</h2>
+					<p>Você sabe o que é Economia Colaborativa? Esses dois empreendores sabem e estão se dando muito bem!</p>
+					<p><b>André Marim</b></p>
+					<p>É formado em Engenharia Elétrica na USP - São Carlos, co-fundador da plataforma de compartilhamento de Carros, a Fleety, Ele busca disseminar a ideia da economia criativa para transformar a forma em que vivemos hoje - “A movimentação cultural da economia do compartilhamento reforça esse ponto: não precisamos mais da posse, precisamos do serviço”.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<img class="conteudo-img-1" src="img/conteudo-anna.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Anna Haddad</b></p>
+					<p>É co-fundadora da plataforma Cinese de conhecimento colaborativo. Possui interesse por empoderamento feminino, sendo fundadora da Comum - uma comunidade de mulheres online. Se formou em Direito na PUC- SP e já escreveu um livro colaborativo, o Desnamorados, cheio de histórias sobre amor, com óticas diferentes e vários estilos literários.</b></p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Painel de Discussão</h2>
+			<img class="conteudo-img-1 conteudo-descricao-dupla" src="img/conteudo-beatus.png">
+			<div class="conteudo-descricao conteudo-descricao-dupla">
+				<div class="descricaoPal">
+					<h2>Comunicação</h2>
+					<p>Afinal, quais são os benefícios que um bom trabalho de comunicação pode trazer para a sua empresa? Dois jovens promissores e uma experiente comunicadora irão nos ajudar a enxergar novas possibilidades.</p>
+					<p><b>Beatus</b></p>
+					<p>É uma agência digital com o modelo de negócio parecido com o de um freelancer: você manda o e-mail pra eles, diz o que, como e pra quando precisa, e poderá receber um “projeto com todo amor e carinho, sem que você precise sair da sua casa”. A empresa foi criada por pós-juniores do MEJ Unesp.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<img class="conteudo-img-1" src="img/conteudo-liliane.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Liliane Ferrari</b></p>
+					<p>Já foi apontada como uma das 10 mulheres mais influentes da Internet brasileira pelo iG, trabalhou com o Facebook em Feiras do Sebrae, jornalista pós-graduada em Filosofia e História da Arte. Mantém um blog pessoal há mais de oito anos. Foi editora de conteúdo e diretora de atendimento do site Petiscos/Julia Petit. Já passou por diversas empresas, acumulando 16 anos de experiência no ramo corporativo.</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Desafio</h2>
+			<img class="conteudo-img-1" src="img/conteudo-ambev.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>AMBEV</b></p>
+					<p>Desafio com objetivo de mapear talentos e identificar pessoas que se alinham ao perfil AMBEV.</p>
+					<p>Desafios serão avaliado por:<br>
+					Fernando Mazzarolo - Diretor Comercial de São Paulo Interior - AMBEV<br>
+					Bárbara Camargo - Gerente de Gente e Gestão de São Paulo Interior - SUL - AMBEV<br>
+					Rogério Palermo - Gerente Comercial de São Paulo Interior - SUL - AMBEV</p>
+					<p><b>Sábado - 17h às 18h30</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Palestra de Encerramento</h2>
+			<img class="conteudo-img-1" src="img/conteudo-christian.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<h2>Como resolver os problemas de amanhã</h2>
+					<p><b>Christian Engelmann</b></p>
+					<p>Christian Engelmann tem como um de seus objetivos mudar o meio em que está inserido através das pessoas e das facilidades que a tecnologia proporciona. Ele busca com a Reverse, tornar as cidades mais eficiente e engajar as pessoas a fazerem o mesmo!</p>
+					<p><b>Domingo - 14h às 15h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<!-- Workshop -->
+			<div class="article-bloco">
+				<h2 id="workshop">Workshops</h2>
+				<p>Os workshops servem para auxiliar no desenvolvimento pessoal e profissional,
+				 podendo apresentar conteúdos de diversas áreas do conhecimento.</p>
+			</div>
+			<img class="conteudo-fundo-pc" src="img/conteudo-fundo.png">
+			<div class="clear"></div>
+
+			<h2>Inovação pelas lente do design</h2>
+			<img class="conteudo-img-1" src="img/conteudo-renatoendo.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Renato Endo</b></p>
+					<p>Irá mostrar ferramentas para aplicar a inovação pelas Lentes do Design. Ele é formado em design gráfico e despertou seu interesse por empreendedorismo ainda na faculdade, onde criou uma empresa de alimentação saudável. A partir disso, percebeu o impacto que as lentes do design podem trazer para o desenvolvimento de startups.</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Gerenciamento de Projetos</h2>
+			<img class="conteudo-img-1" src="img/conteudo-cart.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Cart</b></p>
+					<p>Por ser atividade multidisciplinar, o gerenciamento de projetos reúne uma série de conhecimentos e habilidades de liderança e gestão, que permitem as organizações implementarem suas iniciativas com êxito, alcançando seus objetivos conforme expectativas e direcionamento estratégico.</p>
+					<p>Será demonstrado sobre o pensamento estratégico, como nascem os projetos, o porquê de gerenciá-los, quais são os principais personagens envolvidos e o como o conceito é aplicado para que seja capaz de gerar o valor esperado.</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+
+			<h2>O Segredo para Vencer o Medo de Falar em Público</h2>
+			<img class="conteudo-img-1" src="img/conteudo-franco.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Franco Júnior</b></p>
+					<p>Este Workshop irá abordar a importância da oratória em nossas vidas; como vencer o medo de falar em público; técnicas de desinibição; como falar sem medo e com naturalidade; a importância dos gestos, palavras e voz numa fala em público; como montar apresentações que vendem ideias; elaborar uma apresentação com começo, meio e fim eficazes e usar a PNL nas suas apresentações em público.</p>
+					<p>Franco Júnior é especialista em treinamento de empresários, executivos, políticos e profissionais liberais de alto nível. É Radialista, Consultor e Conferencista com Especialização em Marketing Político e Comunicação. Hoje é Professor do SENAC no curso de Radialismo e Técnicas de Locução e já ministrou aulas de Comunicação Verbal na USP, FOB e UNESP. Já treinou centenas de Executivos e Colabradores em empresas como TIM, LG, VIVO, Caixa Econômica Federal, Grupo Lwart e outras...</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Nosso sonho, nossa gente, nossa cultura</h2>
+			<img class="conteudo-img-1" src="img/conteudo-ambev.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>AMBEV</b></p>
+					<p>"Com a rica diversidade da nossa gente, compartilhar a mesma cultura em busca de um sonho em comum é que o traz a união dos nossos colaboradores. Na Ambev, temos 10 princípios que mostram o caminho que devemos seguir e que garantem a consistência no nosso jeito de trabalhar."</p>
+					<p>Quer saber como adaptar essa cultura a sua Empresa Júnior?</p>
+					<p>Venha participar do workshop ministrado por Rogério Palermo, gerente comercial de São Paulo Interior - SUL - AMBEV.</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Vender, pra quê?</h2>
+			<img class="conteudo-img-1" src="img/conteudo-bia.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Bia Vital</b></p>
+					<p>Que toda empresa precisa vender, todo mundo sabe. A questão é: vender o quê, como e para quem? Ter muito claro quais são os seus produtos, o processo de vendas e as etapas da venda é fundamental para o sucesso de uma empresa júnior. Além disso, decisões comerciais estratégicas influenciam o resultado e crescimento da empresa como um todo, não só na área comercial.</p>
+					<p>Bia Vital atualmente é gerente comercial do IEV - Instituto de Especialização em Vendas, mas também já presidiu uma empresa do MEJ Unesp.</p>
+					<p><b>Sábado - 14h às 16h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Gerenciamento de Projetos</h2>
+			<img class="conteudo-img-1" src="img/conteudo-producao.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Produção Jr</b></p>
+					<p>Saiba mais sobre a Produção Jr:</p>
+					<a href="https://www.facebook.com/ProducaoJr/?fref=ts
+					">https://www.facebook.com/ProducaoJr/?fref=ts
+					</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Relacionamento com Stakeholders</h2>
+			<img class="conteudo-img-1" src="img/conteudo-propeq.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Propeq</b></p>
+					<p>Saiba mais sobre a Propeq:</p>
+					<a href="https://www.facebook.com/PropeqUnicamp/?fref=ts">https://www.facebook.com/PropeqUnicamp/?fref=ts</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Gestão do Conhecimento</h2>
+			<img class="conteudo-img-1" src="img/conteudo-propeq.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Propeq</b></p>
+					<p>Saiba mais sobre a Propeq:</p>
+					<a href="https://www.facebook.com/PropeqUnicamp/?fref=ts">https://www.facebook.com/PropeqUnicamp/?fref=ts</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Como Voltar a Estrutura da EJ para Projetos</h2>
+			<img class="conteudo-img-1" src="img/conteudo-economica.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Economica</b></p>
+					<p>Saiba mais sobre a Economica:</p>
+					<a href="https://www.facebook.com/ECONOMICA-Estudos-Econômicos-Júnior-213326052029649/?fref=ts">https://www.facebook.com/ECONOMICA-Estudos-Econômicos-Júnior-213326052029649/?fref=ts</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Plano de Negócios</h2>
+			<img class="conteudo-img-1" src="img/conteudo-economica.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>Economica</b></p>
+					<p>Saiba mais sobre a Economica:</p>
+					<a href="https://www.facebook.com/ECONOMICA-Estudos-Econômicos-Júnior-213326052029649/?fref=ts">https://www.facebook.com/ECONOMICA-Estudos-Econômicos-Júnior-213326052029649/?fref=ts</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Precificação</h2>
+			<img class="conteudo-img-1" src="img/conteudo-fea.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>FEA Júnior</b></p>
+					<p>Saiba mais sobre a FEA Júnior:</p>
+					<a href="https://www.facebook.com/FEAjuniorUSP/?fref=ts">https://www.facebook.com/FEAjuniorUSP/?fref=ts
+					</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Pesquisa de Mercado</h2>
+			<img class="conteudo-img-1" src="img/conteudo-fea.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>FEA Júnior</b></p>
+					<p>Saiba mais sobre a FEA Júnior:</p>
+					<a href="https://www.facebook.com/FEAjuniorUSP/?fref=ts">https://www.facebook.com/FEAjuniorUSP/?fref=ts
+					</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<h2>Vendas</h2>
+			<img class="conteudo-img-1" src="img/conteudo-fea.png">
+			<div class="conteudo-descricao">
+				<div class="descricaoPal">
+					<p><b>FEA Júnior</b></p>
+					<p>Saiba mais sobre a FEA Júnior:</p>
+					<a href="https://www.facebook.com/FEAjuniorUSP/?fref=ts">https://www.facebook.com/FEAjuniorUSP/?fref=ts
+					</a>
+					<p><b>Domingo - 10h30 às 12h</b></p>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</article>
+
+	<div class="clear"></div>
+	<div class="bloco-right vermelho2"></div>
+	<div class="clear"></div>
+
+	<!-- Inscrições -->
+	<div class="bloco-left azul2"  id="inscricoes"></div><h1 class="h1-left">INSCRIÇÕES</h1>
+	<div class="clear"></div>
+
+	<article>
+		<div class="article-bloco inscricoes-fundo">
+			<p>As inscrições para o XXII Enejunep começam no dia 12 de julho de 2016. Todas as empresas juniores poderão solicitar suas vagas a partir deste dia através da nossa plataforma de inscrições.</p>
+			
+			<div class="inscricoes-sistema">
+				<a href="https://sistemas.exiti.com.br/eventos/login" target="_blank"><p>Acesse a plataforma de inscrições clicando <b class="inscricoes-clique-aqui">aqui</b>.</p></a>
+			</div>
+		</div>
+
+		<img class="inscricoes-fundo-pc" src="img/inscricoes-fundo.png">
+	</article>
+
+	<div class="clear"></div>
+	<div class="bloco-right azul2"></div>
+	<div class="clear"></div>
+
+	<!-- Investidores -->
+	<div class="bloco-left cinza2"  id="investidores"></div><h1 class="h1-left">INVESTIDORES</h1>
+	<div class="clear"></div>
+
+	<article>			
+		<div class="article-bloco investidores-fundo">
+			<p>Para a construção desse evento, contamos com a ajuda valiosa de nossos investidores. Essas são as empresas que acreditam no XXII Enejunesp e no potencial do Movimento Empresa Júnior.</p>
+
+			<table class="investidores-logos">
+				<caption><h3>Parceiros</h3></caption>
+				</tr>
+					<td><a href="http://ticomia.com.br/" target="_blank"><img src="img/investidores-ticomia.png"></a></td>
+					<td><a href="http://www.rlassociados.com.br/" target="_blank"><img src="img/investidores-irl.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://www.zopone.com.br/" target="_blank"><img src="img/investidores-zopone.png"></a></td>
+					<td><a href="http://www.ambev.com.br/" target="_blank"><img src="img/investidores-ambev.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://www.caio.com.br/" target="_blank"><img src="img/investidores-caio.png"></a></td>
+					<td><a href="http://www.palamin.com/" target="_blank"><img src="img/investidores-palamin.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://vitoriaregiahotel.com.br/?lang=pt_br" target="_blank"><img src="img/investidores-vitoria.png"></a></td>
+				</tr>
+			</table>
+			<table class="investidores-logos">
+				<caption><h3>Apoio</h3></caption>
+				<tr>
+					<td><a href="http://bauru.apaebrasil.org.br/" target="_blank"><img src="img/investidores-apae.png"></a></td>
+					<td><a href="http://ievendas.com.br/" target="_blank"><img src="img/investidores-instituto.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="https://www.facebook.com/designjunior/" target="_blank"><img src="img/investidores-dsj.png"></a></td>
+					<td><a href="https://sistemas.exiti.com.br/portal/" target="_blank"><img src="img/investidores-exit.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://www.bauru.sp.gov.br/" target="_blank"><img src="img/investidores-prefeitura.png"></a></td>
+					<td><a href="http://www.bauru.unesp.br/" target="_blank"><img src="img/investidores-unesp.png"></a></td>
+				</tr>
+			</table>
+		</div>
+		<img class="investidores-fundo-pc" src="img/investidores-fundo.png">
+	</article>
+
+	<div class="clear"></div>
+	<div class="bloco-right cinza2"></div>
+	<div class="clear"></div>
+</section>
+
+<!-- Contato -->
+<footer>
+	<div class="footer-top"></div>
+	<div class="footer-bottom">
+		<div class="footer-left">
+			<h4>Contato:</h4>
+			<p>comunicacao.enejunesp@gmail.com</p>
+		</div>
+		<div class="footer-right">
+			<a href="https://www.instagram.com/enejunesp" target="_blank"><img src="img/insta.png"></a>
+		</div>
+		<div class="footer-right">
+			<a href="https://twitter.com/search?q=%23ENEJUNESP" target="_blank"><img src="img/twitter.png"></a>
+		</div>
+		<div class="footer-right">
+			<a href="https://www.facebook.com/Enejunesp/" target="_blank"><img src="img/facebook.png"></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</footer>
+
+<script src='js/prefixfree.min.js'></script>
+<script src='js/jquery.js'></script>
+<script src='js/script.js'></script>
+</body>
+</html>

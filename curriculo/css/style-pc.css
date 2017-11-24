@@ -1,0 +1,109 @@
+body {
+	/*background-color: #242424;*/
+	font-family: 'Roboto Slab', serif;
+}
+
+section {
+	/*padding: 60px 0;*/
+}
+
+
+.doc {
+	padding-top: 52.5px;
+	margin: 0 auto;
+	width: 1050px;
+	height: 1485px;
+	background-color: white;
+	/*box-shadow: 0 4px 15px 2px rgba(0,0,0,0.35);*/
+	box-sizing: border-box;
+}
+
+.titulo {
+	width: 945px;
+	margin: 0 auto 52.5px;
+	border: 4px solid black;
+	box-sizing: border-box;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+}
+.titulo h1 {
+	font-size: 2.5em;
+	letter-spacing: 5px;
+	margin: 25px 0 12.5px;
+}
+.titulo h2 {
+	margin: 12.5px 0 25px;
+	letter-spacing: 3px;
+}
+
+.coluna{
+	position: relative;
+	float: left;
+	margin-left: 10%;
+	width: 35%;
+	height: 500px;
+}
+.coluna h2 {
+	font-family: 'Didact Gothic', sans-serif;
+	letter-spacing: 3px;
+}
+.coluna h2:first-child {
+	margin-top: 0;
+}
+.coluna p {
+	letter-spacing: 2px;
+	padding-left: 7px;
+}
+.coluna a, .coluna a:hover, .coluna a:active, .coluna a:visited, .coluna a:link {
+	color: black;
+}
+
+.ponto-bloco {
+	position: relative;
+}
+.ponto {
+	position: absolute;
+}
+.ponto div {
+	float: right;
+	margin-right: 6px;
+	width: 0;
+	border-style: solid;
+	border-width: 6px;
+	border-radius: 50%;
+}
+.pb {
+	border-color: black;
+}
+.pc {
+	border-color: #cccccc;
+}
+
+.p1 {
+	right: 0px;
+	top: 6px;
+}
+.p2 {
+	right: 0px;
+	top: 44px;
+}
+.p3 {
+	right: 0px;
+	top: 82px;	
+}
+.p4 {
+	right: 0px;
+	top: 120px;	
+}
+.p5 {
+	right: 0px;
+	top: 158px;	
+}
+.p6 {
+	right: 0px;
+	top: 196px;	
+}
+.p7 {
+	right: 0px;
+	top: 234px;	
+}

@@ -1,0 +1,280 @@
+@media screen and (min-device-width: 768px) {
+
+.celular { display: none; }
+
+}
+
+button, button:hover, button:active, button:focus {
+	outline: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: black;
+	color: rgba(255,255,255,0.9);
+	font-weight: 300;
+}
+body h1 {
+	font-size: 2em;
+}
+body h2, body h3 {
+	font-weight: 300;
+}
+
+/* MENU NOVO */
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+	position: fixed;
+	z-index: 500;
+	width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
+    /*background-color: rgba(0, 0, 0, 0.8)*/;
+    border-bottom: 1px solid gray;
+}
+
+/* Float the list items side by side */
+ul.topnav li:first-child { float: left; }
+ul.topnav li { float: right; }
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 22px 20px 11px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.3));
+}
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+/* CONTROL ARROWS */
+.fp-controlArrow.fp-prev {
+	border-color: transparent rgba(0, 0, 0, 0.3) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent rgba(0, 0, 0, 0.3);
+}
+
+/* CONTEÚDO */
+.section {
+	text-align: center;
+}
+
+/* HOME */
+canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.box-home {
+	/*font-family: 'Roboto Slab', serif;*/
+	color: rgba(255,255,255,0.9);
+}
+.box-home h1 {
+	margin-top: 0;
+}
+.box-home h2 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+.dryly {
+	text-decoration: none;
+	position: absolute;
+	color: rgba(255,255,255,0.7);;
+	font-size: medium;
+	bottom: 10px;
+	right: 10px;
+}
+.dryly span {
+	color: #3C8FBE;
+	text-decoration: underline;
+}
+
+/* CONTEÚDO */
+.slide {
+    position: relative;
+}
+.slide h1 {
+    margin-top: 0;
+    margin-bottom: 53px;
+}
+.conteudo-img {
+	float: left;
+	height: 60%;
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .conteudo-img {
+    	height: 500px;
+    } 
+}
+
+.img-1 { background-image:url("../img/enejunesp-1024.png"); }
+.img-2 { background-image:url("../img/enejunesp-360.png"); }
+.img-3 { background-image:url("../img/interage-1024.png"); }
+.img-4 { background-image:url("../img/interage-360.png"); }
+.img-5 { background-image:url("../img/primeirodemaio-1024.png"); }
+.img-6 { background-image:url("../img/primeirodemaio-360.png"); }
+
+.conteudo-left {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 40%;
+}
+.conteudo-right {
+	margin-right: 10%;
+	width: 30%;
+}
+
+.control-arrow {
+	position: absolute;
+	z-index: 4;
+	top: 50%;
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin-top: -38.5px;
+}
+.control-arrow-next {
+	right: 35px;
+	border-width: 38.5px 0 38.5px 34px;
+	border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+}
+.control-arrow-next-black {
+	right: 47px;
+	border-width: 38.5px 0 38.5px 22px;
+	border-color: transparent transparent transparent rgba(0, 0, 0, 1);
+}
+.control-arrow-prev {
+	left: 35px;
+	border-width: 38.5px 34px 38.5px 0;
+	border-color: transparent rgba(255, 255, 255, 1) transparent transparent;
+}
+.control-arrow-prev-black {
+	left: 47px;
+	border-width: 38.5px 22px 38.5px 0;
+	border-color: transparent rgba(0, 0, 0, 1) transparent transparent;
+}
+
+.control-arrow-info {
+	position: absolute;
+	z-index: 4;
+	top: 50%;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	text-align: center;
+	color: white;
+}
+.control-arrow-info-right {
+	font-size: 25px;
+	right: 28px;
+}
+.control-arrow-info-left {
+	font-size: 20px;
+	left: 15px;
+}
+
+.control-arrow-down {
+	position: absolute;
+	z-index: 4;
+	left: 50%;
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin-left: -38.5px;
+}
+.control-arrow-down-white {
+	bottom: 15px;
+	border-width: 34px 38.5px 0 38.5px;
+	border-color: rgba(255, 255, 255, 1) transparent transparent transparent;
+}
+.control-arrow-down-black {
+	bottom: 27px;
+	border-width: 22px 38.5px 0 38.5px;
+	border-color: rgba(0, 0, 0, 1) transparent transparent transparent;
+}
+.control-arrow-info-down {
+	position: absolute;
+	z-index: 4;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	bottom: 53px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	left: 50%;
+	margin-left: -38px;
+}
+
+/* SOBRE */
+.box-sobre {
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
+	color: rgba(255,255,255,1);
+	font-weight: 300;
+}
+.sobre h1 {
+	margin-top: 0;
+    margin-bottom: 53px;
+}
+.box-sobre h2 {
+	font-size: 1.4em;
+}
+.box-sobre h3 {
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+.info-sobre-2 {
+	font-size: 25px;
+	bottom: 51px;
+	margin-left: -45px;
+}
+
+/* CONTATO */
+.contato {
+	margin: 0 auto;
+	width: 340px;
+}
+.contato a:link, .contato a:hover, .contato a:visited {
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+}
+.contato h1 {
+	text-align: center;
+	margin-top: 0;
+}
+.contato h2 {
+	text-align: left;
+}
+.contato img {
+	margin-right: 7px;
+	width: 35px;
+	top: 9px;
+	position: relative;
+}
